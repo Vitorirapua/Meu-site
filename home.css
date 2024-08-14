@@ -1,0 +1,70 @@
+@charset "html-5";
+
+/* Reset CSS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url(img/fundo.jfif);
+    background-attachment: fixed;
+}
+
+header {
+    background-color: #333;
+    padding: 2rem;
+    text-align: center;
+}
+
+header div img{
+    height: 80px;
+    display: inline-block;
+}
+
+
+header div{
+    display: flex;
+    justify-content: space-evenly;
+ }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2ren;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    width: 100%;
+}
+
+form{
+    padding: 1rem;
+}
+ main{
+    color: #fff;
+ }
+
+ section a{
+    color: rgb(0, 122, 192);
+ }
